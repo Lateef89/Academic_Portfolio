@@ -1,0 +1,27 @@
+---
+---
+
+@import "minimal-mistakes";
+
+body {
+  background: url("/images/paper-texture.png") repeat;
+}
+
+.sidebar {
+  background: #0b6f8a; /* close to the screenshot’s teal/blue */
+}
+
+.sidebar .author__name,
+.sidebar .author__bio,
+.sidebar a {
+  color: #ffffff !important;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+.page__content p {
+  font-size: 1.02rem;
+  line-height: 1.7;
+}
